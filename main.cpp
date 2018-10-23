@@ -1,9 +1,11 @@
 #ifndef _MAIN_CPP
 #define _MAIN_CPP
+#include <stdio.h>
 
 #include <string>
 
 const int DEPTH_OF_LOOK_AHEAD = 8;
+const int N = 4;
 
 #include "game.cpp"
 #include "alphabeta.cpp"
@@ -40,6 +42,7 @@ void clearscreen()
 
 void pausescreen() 
 {
+	int c = getchar();
 }
 
 void playComputer();
@@ -48,6 +51,7 @@ void about()
 {
 	header();
 	cout << "\tMade by Nguyễn Bá Dũng & Lê Anh Hòa" << endl;
+	cout << "\tCopyright 2014 Jay Hitesh Bosamiya, Palash Agrawal\n";
 }
 
 int main() 
