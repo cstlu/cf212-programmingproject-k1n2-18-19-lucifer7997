@@ -8,8 +8,6 @@
 
 using namespace std;
 
-int const N = 3;
-
 class Board;
 
 class Move 
